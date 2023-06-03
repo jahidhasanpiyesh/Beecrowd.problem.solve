@@ -1,4 +1,4 @@
-# try this simple problem solve !
+# try this simple problem solve ! ------- Interval
 # input this float numbers ?
 num = float(input())
 # using to condition [0,25],(25,50],(50,75],(75,100]
