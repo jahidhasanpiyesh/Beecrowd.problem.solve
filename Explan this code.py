@@ -1,14 +1,14 @@
-# try this simple problem solve !
-# input this float numbers ?
-num = float(input())
-# using to condition [0,25],(25,50],(50,75],(75,100]
-if 75 < num <= 100:
-    print("Intervalo (75,100]")
-elif 50 < num <= 75:
-    print("Intervalo (50,75]")
-elif 25 < num <= 50:
-    print("Intervalo (25,50]")
-elif 0 <= num <= 25:
-    print("Intervalo [0,25]")
-else:
-    print("Fora de intervalo")
+# solve this problem ?
+x, y = map(int, input().split())
+if x == 1 :
+    Price = float(4.00*y)
+elif x == 2 :
+    Price = float(4.50*y)
+elif x == 3 :
+    Price = float(5.00*y)
+elif x == 4 :
+    Price = float(2.00*y)
+elif x == 5 :
+    Price = float(1.50*y)
+
+print(f"Total: R$ {Price:.2f}")
